@@ -29,7 +29,7 @@ The primary shortcuts for the Schematic Editor are mapped as follows:
 
 ## How to Import into LTspice 24
 
-LTspice 24 manages keyboard shortcuts via its initialization (`.ini`) file. 
+LTspice 24 manages keyboard shortcuts via its initialization (`.ini`) file. You can apply the new shortcuts using any of the following methods.
 
 ### Method 1: Modify the Default Configuration File (Recommended)
 
@@ -54,3 +54,11 @@ Use the `-ini` parameter to avoid overwriting the default configuration.
 4. In the **Target** field, append `-ini "<path_to_file>"`. Example:
    `"C:\Program Files\ADI\LTspice\LTspice.exe" -ini "C:\LTspice_Configs\kicad-keyshort.txt"`
 5. Click **Apply** and **OK**. Launch LTspice using this modified shortcut.
+
+### Method 3: Load via the LTspice Interface
+
+1. Launch LTspice 24.
+2. Open the **Settings** menu (click the gear icon or navigate via `Tools` > `Settings`).
+3. Navigate to the **Schematic** section and select **Keyboard Shortcuts**.
+4. Use the interface option to load or import settings from a file.
+5. Browse to your `kicad-keyshort.txt` file, open it, and apply the changes.
